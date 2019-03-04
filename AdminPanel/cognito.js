@@ -1,12 +1,12 @@
 var cognitoUser;
 
-const region = 'eu-west-2';
+const region = 'us-west-2';
 
 AWS.config.region = region;
 
-const userPoolId = 'eu-west-2_6Qk8UHkl5';
-const cognitoAppId = '41pboo7igtsbm6bfi18sje5p96';
-const identityPool = 'eu-west-2:72c461e0-ca5f-47ce-882e-bee6cc92812b';
+const userPoolId = 'us-west-2_ktBhKK8jl';
+const cognitoAppId = '5shqas02ss795gogniogta21a9';
+const identityPool = 'us-west-2:d451301b-ac1f-401c-91e3-5d3c8182950c';
 const cognitoLogin = 'cognito-idp.'+region+'.amazonaws.com/'+userPoolId;
 
 //Log on to Cognito then display the result

@@ -1,11 +1,12 @@
 //Log on to Cognito, establish AWS credentials then display the result
-const region = 'eu-west-2';
-const userPoolId = 'eu-west-2_6Qk8UHkl5';
-const cognitoAppId = '41pboo7igtsbm6bfi18sje5p96';
-const identityPool = 'eu-west-2:72c461e0-ca5f-47ce-882e-bee6cc92812b';
+const region = 'us-west-2';
+const userPoolId = 'us-west-2_ktBhKK8jl';
+const cognitoAppId = '5shqas02ss795gogniogta21a9';
+const identityPool = 'us-west-2:c36042db-3359-424c-8bce-08ee013f601e';
 const cognitoLogin = 'cognito-idp.'+region+'.amazonaws.com/'+userPoolId;
-const iotEndpoint = 'ah0p1efr5o1cl-ats.iot.eu-west-2.amazonaws.com';
+const iotEndpoint = 'a21g6seiavy4kt-ats.iot.us-west-2.amazonaws.com';
 const topic = 'iotdemo/lambda/schedule';
+
 
 var pahoClient;
 

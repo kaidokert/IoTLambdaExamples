@@ -6,9 +6,9 @@ function cognitoLogon(params) {
 	var user = params.formUserName.value;
 	var pass = params.formPassword.value
 
-	var region = 'eu-west-2';
-	var userPool = 'eu-west-2_6Qk8UHkl5';
-	var cognitoAppId = '41pboo7igtsbm6bfi18sje5p96';
+	var region = 'us-west-2';
+	var userPool = 'us-west-2_ktBhKK8jl';
+	var cognitoAppId = '5shqas02ss795gogniogta21a9';
 
 	var authenticationData = {
 			Username : user,
